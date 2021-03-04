@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!--
 2020-2-20: Created with FontForge (http://fontforge.org)
 -->
@@ -10,7 +10,7 @@ Created by FontForge 20170731 at Thu Feb 20 09:43:55 2020
 
 </metadata>
 <defs>
-<font id="Flaticon" horiz-adv-x="512" >
+<font id="Flaticon" horiz-adv-x="512">
   <font-face 
     font-family="Flaticon"
     font-weight="400"

@@ -581,7 +581,7 @@ li {
   z-index: 1;
   margin: 0 5px;
 }
-.main-header .main-menu ul li > a {
+.main-header .main-menu ul li> a {
   color: #333;
   font-weight: 400;
   padding: 39px 16px;
@@ -594,15 +594,15 @@ li {
   transition: 0.3s;
   text-transform: capitalize;
 }
-.main-header .main-menu ul li > a:hover {
+.main-header .main-menu ul li> a:hover {
   color: #1a90ff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-header .main-menu ul li > a {
+  .main-header .main-menu ul li> a {
     padding: 39px 15px;
   }
 }
-.main-header .main-menu ul li > a::before {
+.main-header .main-menu ul li> a::before {
   position: absolute;
   content: "";
   left: 0;
@@ -612,10 +612,10 @@ li {
   width: 0;
   transition: 0.3s;
 }
-.main-header .main-menu ul li:hover > a::before {
+.main-header .main-menu ul li:hover> a::before {
   width: 100%;
 }
-.main-header .main-menu ul li.active > a::before {
+.main-header .main-menu ul li.active> a::before {
   width: 100%;
 }
 .main-header .main-menu ul ul.submenu {
@@ -633,16 +633,16 @@ li {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.main-header .main-menu ul ul.submenu > li {
+.main-header .main-menu ul ul.submenu> li {
   margin-left: 7px;
   display: block;
 }
-.main-header .main-menu ul ul.submenu > li > a {
+.main-header .main-menu ul ul.submenu> li> a {
   padding: 6px 10px !important;
   font-size: 14px;
   text-transform: capitalize;
 }
-.main-header .main-menu ul ul.submenu > li > a::before {
+.main-header .main-menu ul ul.submenu> li> a::before {
   position: absolute;
   content: "";
   left: -5px;
@@ -652,10 +652,10 @@ li {
   transition: 0.3s;
   top: 50%;
 }
-.main-header .main-menu ul ul.submenu > li > a:hover {
+.main-header .main-menu ul ul.submenu> li> a:hover {
   padding-left: 15px !important;
 }
-.main-header .main-menu ul ul.submenu > li > a:hover::before {
+.main-header .main-menu ul ul.submenu> li> a:hover::before {
   width: 10px;
 }
 .header-area .header-top .header-info-right .header-social a i {
@@ -676,7 +676,7 @@ li {
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
 }
-.main-header ul > li:hover > ul.submenu {
+.main-header ul> li:hover> ul.submenu {
   visibility: visible;
   opacity: 1;
   top: 100%;
@@ -684,10 +684,10 @@ li {
 .header-sticky ul li a {
   padding: 10px 19px;
 }
-.header-sticky.sticky-bar.sticky .main-menu ul > li > a {
+.header-sticky.sticky-bar.sticky .main-menu ul> li> a {
   padding: 25px 16px;
 }
-.header-sticky.sticky-bar.sticky .main-menu ul > li > a::before {
+.header-sticky.sticky-bar.sticky .main-menu ul> li> a::before {
   bottom: 11px;
 }
 .slicknav_menu .slicknav_icon-bar {

@@ -44,7 +44,7 @@
       var scrollTop = $window.scrollTop(),
         documentHeight = $document.height(),
         dwh = documentHeight - windowHeight,
-        extra = (scrollTop > dwh) ? dwh - scrollTop : 0;
+        extra = (scrollTop> dwh) ? dwh - scrollTop : 0;
 
       for (var i = 0, l = sticked.length; i < l; i++) {
         var s = sticked[i],
@@ -102,7 +102,7 @@
               s.stickyElement.trigger('sticky-update', [s]);
             }
 
-            if (s.currentTop === s.topSpacing && s.currentTop > newTop || s.currentTop === null && newTop < s.topSpacing) {
+            if (s.currentTop === s.topSpacing && s.currentTop> newTop || s.currentTop === null && newTop < s.topSpacing) {
               // just reached bottom || just started to stick but bottom is already reached
               s.stickyElement.trigger('sticky-bottom-reached', [s]);
             } else if(s.currentTop !== null && newTop === s.topSpacing && s.currentTop < newTop) {
@@ -115,7 +115,7 @@
 
           // Check if sticky has reached end of container and stop sticking
           var stickyWrapperContainer = s.stickyWrapper.parent();
-          var unstick = (s.stickyElement.offset().top + s.stickyElement.outerHeight() >= stickyWrapperContainer.offset().top + stickyWrapperContainer.outerHeight()) && (s.stickyElement.offset().top <= s.topSpacing);
+          var unstick = (s.stickyElement.offset().top + s.stickyElement.outerHeight()>= stickyWrapperContainer.offset().top + stickyWrapperContainer.outerHeight()) && (s.stickyElement.offset().top <= s.topSpacing);
 
           if( unstick ) {
             s.stickyElement
@@ -232,7 +232,7 @@
 
           var removeIdx = -1;
           var i = sticked.length;
-          while (i-- > 0) {
+          while (i--> 0) {
             if (sticked[i].stickyElement.get(0) === that) {
                 splice.call(sticked,i,1);
                 removeIdx = i;
