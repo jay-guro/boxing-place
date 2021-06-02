@@ -1,2 +1,2 @@
 # boxing-place.jasonguro.com
-Boxing Place
+Boxing Place App
