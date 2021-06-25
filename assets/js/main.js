@@ -9,7 +9,6 @@
       });
     });
 
-
 /* 2. slick Nav */
 // mobile_menu
     var menu = $('ul#navigation');
@@ -20,7 +19,6 @@
         openedSymbol:'-'
       });
     };
-
 
 /* 3. MainSlider-1 */
     function mainSlider() {
@@ -85,7 +83,6 @@
       }
     }
     mainSlider();
-
 
  // recent-active
   $('.customar-active').slick({
@@ -195,7 +192,6 @@
       });
     }
 
-
 /* 5.  Applic App */
     var client_list = $('.app-active');
     if(client_list.length){
@@ -228,7 +224,6 @@
       });
     }
 
-
 /* 6. Nice Selectorp  */
   var nice_Select = $('select');
     if(nice_Select.length){
@@ -244,7 +239,6 @@
         $(".header-sticky").addClass("sticky-bar");
       }
     });
-
     $(window).on('scroll', function () {
       var scroll = $(window).scrollTop();
       if (scroll < 245) {
@@ -253,8 +247,6 @@
           $(".header-sticky").addClass("sticky");
       }
     });
-
-
 
 /* 8. sildeBar scroll */
     $.scrollUp({
@@ -268,24 +260,19 @@
       activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
     });
 
-
 /* 9. data-background */
     $("[data-background]").each(function () {
       $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
       });
 
-
 /* 10. WOW active */
     new WOW().init();
-
-/* 11. Datepicker */
     
 // 11. ---- Mailchimp js --------//  
     function mailChimp() {
       $('#mc_embed_signup').find('form').ajaxChimp();
     }
     mailChimp();
-
 
 // 12 Pop Up Img
     var popUp = $('.single_gallery_part, .img-pop-up');
@@ -297,8 +284,4 @@
           }
         });
       }
-
-
-
-
 })(jQuery);
