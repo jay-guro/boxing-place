@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 .white-bg {
   background: #ffffff;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   margin-top: 0px;
   font-style: normal;
@@ -21,7 +21,7 @@ h6 {
   text-transform: normal;
 }
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 30px;
@@ -65,7 +65,7 @@ a:hover,
 }
 a,
 button {
-  color: #fff;
+  color: #999;
   outline: medium none;
 }
 button:focus,
@@ -107,7 +107,7 @@ li {
 }
 .theme-overlay::before {
   background: #1696e7 none repeat scroll 0 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -121,7 +121,7 @@ li {
 }
 .overlay::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -134,7 +134,7 @@ li {
 }
 .overlay2::before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #2e2200;
   top: 0;
   left: 0;
@@ -224,7 +224,7 @@ li {
   margin: 0;
 }
 .btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -415,6 +415,23 @@ li {
   padding-top: 200px;
   padding-bottom: 100px;
 }
+@media only screen and (max-width: 430px) {
+  .footer-main {
+    text-align: center;
+  }
+  .hero__caption h1 {
+    text-align: center;
+  }
+  p.mobile_text {
+    text-align: center;
+  }
+  span.mobile_text {
+    display: none !important;
+  }
+  .slider-btns {
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .footer-padding {
     padding-top: 200px;
@@ -581,7 +598,7 @@ li {
   z-index: 1;
   margin: 0 5px;
 }
-.main-header .main-menu ul li> a {
+.main-header .main-menu ul li > a {
   color: #333;
   font-weight: 400;
   padding: 39px 16px;
@@ -594,17 +611,17 @@ li {
   transition: 0.3s;
   text-transform: capitalize;
 }
-.main-header .main-menu ul li> a:hover {
+.main-header .main-menu ul li > a:hover {
   color: #1a90ff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-header .main-menu ul li> a {
+  .main-header .main-menu ul li > a {
     padding: 39px 15px;
   }
 }
-.main-header .main-menu ul li> a::before {
+.main-header .main-menu ul li > a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 20px;
   background: #1a90ff;
@@ -612,10 +629,10 @@ li {
   width: 0;
   transition: 0.3s;
 }
-.main-header .main-menu ul li:hover> a::before {
+.main-header .main-menu ul li:hover > a::before {
   width: 100%;
 }
-.main-header .main-menu ul li.active> a::before {
+.main-header .main-menu ul li.active > a::before {
   width: 100%;
 }
 .main-header .main-menu ul ul.submenu {
@@ -633,18 +650,18 @@ li {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.main-header .main-menu ul ul.submenu> li {
+.main-header .main-menu ul ul.submenu > li {
   margin-left: 7px;
   display: block;
 }
-.main-header .main-menu ul ul.submenu> li> a {
+.main-header .main-menu ul ul.submenu > li > a {
   padding: 6px 10px !important;
   font-size: 14px;
   text-transform: capitalize;
 }
-.main-header .main-menu ul ul.submenu> li> a::before {
+.main-header .main-menu ul ul.submenu > li > a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: -5px;
   background: #a60dcf;
   height: 2px;
@@ -652,10 +669,10 @@ li {
   transition: 0.3s;
   top: 50%;
 }
-.main-header .main-menu ul ul.submenu> li> a:hover {
+.main-header .main-menu ul ul.submenu > li > a:hover {
   padding-left: 15px !important;
 }
-.main-header .main-menu ul ul.submenu> li> a:hover::before {
+.main-header .main-menu ul ul.submenu > li > a:hover::before {
   width: 10px;
 }
 .header-area .header-top .header-info-right .header-social a i {
@@ -676,7 +693,7 @@ li {
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
 }
-.main-header ul> li:hover> ul.submenu {
+.main-header ul > li:hover > ul.submenu {
   visibility: visible;
   opacity: 1;
   top: 100%;
@@ -684,10 +701,10 @@ li {
 .header-sticky ul li a {
   padding: 10px 19px;
 }
-.header-sticky.sticky-bar.sticky .main-menu ul> li> a {
+.header-sticky.sticky-bar.sticky .main-menu ul > li > a {
   padding: 25px 16px;
 }
-.header-sticky.sticky-bar.sticky .main-menu ul> li> a::before {
+.header-sticky.sticky-bar.sticky .main-menu ul > li > a::before {
   bottom: 11px;
 }
 .slicknav_menu .slicknav_icon-bar {
@@ -773,6 +790,11 @@ li {
     padding-top: 100px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .slider-area .hero__caption {
+    padding-top: 200px;
+  }
+}
 .slider-area .hero__caption span {
   display: inline-block;
   color: #333;
@@ -784,7 +806,7 @@ li {
   font-size: 65px;
   font-weight: 700;
   color: #333;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.3;
   margin-bottom: 32px;
 }
@@ -904,7 +926,7 @@ li {
 }
 .service-area .services-caption .service-icon::before {
   background-image: url(../img/shape/dot-bg.png);
-  content: "";
+  content: '';
   width: 80px;
   height: 135px;
   position: absolute;
@@ -1120,7 +1142,7 @@ li {
   height: 43px;
   padding: 10px 20px;
   border: 1px solid #fff;
-  background: #f9f9fe;
+  background: #f1f1f1;
 }
 .footer-area .footer-form form .form-icon button {
   position: absolute;
@@ -1190,7 +1212,7 @@ li {
 }
 .hero-caption span::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 75px;
   height: 3px;
   background: #8f1bdc;
@@ -1234,4 +1256,19 @@ li {
   padding: 20px;
   margin-left: 80px;
   margin-right: 80px;
+}
+
+@media screen and (max-width:430px) {
+  .doc_h3 {
+    padding-top: 20px;
+  text-align: center;
+  margin-left: 0px;
+  font-weight: 700;
+  }
+  .doc_p {
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
 }
